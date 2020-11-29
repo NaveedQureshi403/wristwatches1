@@ -1,0 +1,230 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #c2c2c2;
+    font-family: 'Roboto', sans-serif;
+}
+
+.button1 {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  
+  .button1 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+  }
+  
+  .button1:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
+ 
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width:  55%;
+    border: 3px solid;
+    border-radius: 50px;
+
+}
+.navbar{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0px;
+    cursor: pointer;
+    /* background-color: black; */
+}
+.nav-list{
+    width: 60%;
+    display: flex;
+        align-items: center;
+
+}
+.nav-list li{
+            list-style: none;
+            padding: 26px 30px;
+}
+.nav-list li a{
+            text-decoration: none;
+            color:white;
+}
+
+.nav-list li a:hover{
+    text-decoration: none;
+    color:gray;
+}
+.rightnav{
+    padding: 10px;
+    width: 50%  ;
+text-align: right;
+}
+
+
+#search{
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid grey;
+    border-radius: 9px;
+}
+.background{
+    background: rgba(0,0 ,0,0.7 ) url(image/pexels-jatin-anand-125779.jpg);
+    
+    background-size: cover;
+    /* background-blend-mode: darken; */
+}
+.firstsection{
+    height: 85vh;
+}
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    max-width: 44%;
+    margin: 0px;
+    height: 80%;
+
+}
+.firsthalf{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+
+}
+.secondhalf img{
+    width: 70%;
+    border: white 2px solid;
+    border-radius: 105px;
+    display: block;
+    margin: auto;
+}
+.text-big{
+font-size: 26px;
+}
+.text-small{
+font-size: 12px;
+}
+
+.container {
+    width: 97%;
+    overflow: hidden;
+    /* background: #c2c2c2; */
+    
+    padding: 20px;
+}
+.container .btn-pics{
+    
+        margin-left: 245px;
+        margin-top: -12px;
+        
+        transform: translate(-50%, -50%);
+        /* -ms-transform: translate(-50%, -50%); */
+        background-color: #555;
+        color: white;
+        font-size: 16px ;
+        font-display: solid;
+        padding: 12px 24px;
+        border: black 5px solid;
+        border-radius: 25px;
+        opacity: 90%;
+        /* cursor: pointer; */
+        /* border-radius: 5px; */
+        text-align: center;
+      }
+
+.container ul{
+    padding: 0px;
+    margin: 0px;
+    margin-left: 65px;
+}
+.container ul li{
+    list-style: none;
+    float: left;
+    width: 259px;
+    height: 300px;
+    /* background-image: url(menwatches/w2000_q80.jpg); */
+    margin: 10px 90px 0px 55px;
+    /* box-sizing: border-box; */
+ 
+}
+.container ul li img{
+    height: 300px;
+    width: 259px;
+    border: white solid;
+    border-radius: 25px;
+}
+.card .info .btn{
+    text-decoration: none;
+    padding: 0.5rem 5rem;
+    background: #fff;
+    color: #000;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+}
+.banner ul a img{
+    height: 300px;
+    width: 100%;
+    border-collapse: collapse;
+
+}
+.footer{
+    background-color: #c2c2c2;
+   
+    height: 200px;
+  }
+  h1{
+            
+    height: 200px;
+    width: 100%;
+    
+    
+}
+p{
+  text-align: center;
+  margin-top: 20px;
+}
+
+
+/* .centerbtn{
+    position: inherit;
+    left: 50%;
+    top: 50%;
+    height: 50px;
+    width: 100px;
+    color: white;
+    font-size: 25px;
+
+} */
+/* .container ul li .title{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    background: white;
+    text-align: center;
+} */
+/* .container ul li button {
+    overflow: 2px;
+} */
